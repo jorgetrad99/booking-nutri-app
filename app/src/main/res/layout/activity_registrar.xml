@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Registrar" >
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre(s)" />
+
+    <EditText
+        android:id="@+id/edtxtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtApellidoP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellido Paterno" />
+
+    <EditText
+        android:id="@+id/edtxtApellidoP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtApellidoM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellido Materno" />
+
+    <EditText
+        android:id="@+id/edtxtApellidoM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtTele"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Teléfono" />
+
+    <EditText
+        android:id="@+id/edtxtTele"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresa tu Correo" />
+
+    <EditText
+        android:id="@+id/edtxtCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtContra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crea una constraseña" />
+
+    <EditText
+        android:id="@+id/edtxtContra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnRegistra"
+            android:layout_width="230dp"
+            android:layout_height="58dp"
+            android:text="Registrar"
+            tools:layout_editor_absoluteX="90dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="295dp"
+            android:layout_height="211dp"
+            app:srcCompat="@drawable/dieta_dimagrante_main_site_news_800x450"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="101dp" />
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>

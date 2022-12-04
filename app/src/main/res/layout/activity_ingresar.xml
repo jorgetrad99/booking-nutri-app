@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Ingresar">
+
+    <TextView
+        android:id="@+id/txtIngresaCC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="INGRESA SU CORREO Y CONTRASEÑA" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="247dp">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="309dp"
+            android:layout_height="190dp"
+            app:srcCompat="@drawable/mitos_excusas_para_no_ir_al_nutriologo_2"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtCorre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="CORREO:" />
+
+        <EditText
+            android:id="@+id/edtCorre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/txtContraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="CONTRASEÑA:" />
+
+        <EditText
+            android:id="@+id/edtContraseña"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="" />
+
+    </LinearLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnIngresa"
+            android:layout_width="193dp"
+            android:layout_height="53dp"
+            android:text="INGRESAR"
+            tools:layout_editor_absoluteX="109dp"
+            tools:layout_editor_absoluteY="46dp" />
+    </android.support.constraint.ConstraintLayout>
+
+</LinearLayout>
