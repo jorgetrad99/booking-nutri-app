@@ -22,7 +22,7 @@
         android:id="@+id/txtFecha"
         android:layout_width="97dp"
         android:layout_height="46dp"
-        android:textSize="20p"
+        android:textSize="20dp"
         android:textStyle="bold"
         android:text="Fecha"
         tools:layout_editor_absoluteX="29dp"
