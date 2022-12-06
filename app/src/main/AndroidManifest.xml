@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Citas_Nutri">
         <activity
+            android:name=".Revisa_Usua_Citas"
+            android:exported="true" />
+        <activity
+            android:name=".Revisa_Nutri_Citas"
+            android:exported="true" />
+        <activity
+            android:name=".Ingresa_Usua"
+            android:exported="true" />
+        <activity
             android:name=".IngresaNutri"
             android:exported="true" />
         <activity
