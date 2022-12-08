@@ -29,6 +29,15 @@
         tools:layout_editor_absoluteY="88dp" />
 
     <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="date"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <EditText
         android:id="@+id/edtFecha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -44,13 +53,13 @@
         android:layout_height="218dp"
         app:srcCompat="@drawable/nutriologo_en_linea_640x400"
         tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="201dp" />
+        tools:layout_editor_absoluteY="283dp" />
 
     <Button
         android:id="@+id/btnRevisa"
         android:layout_width="131dp"
         android:layout_height="47dp"
         android:text="Revisar"
-        tools:layout_editor_absoluteX="139dp"
-        tools:layout_editor_absoluteY="436dp" />
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="508dp" />
 </android.support.constraint.ConstraintLayout>
