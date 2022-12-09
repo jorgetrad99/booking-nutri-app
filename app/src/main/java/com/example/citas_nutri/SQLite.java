@@ -6,8 +6,8 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 class UsuarioSQLiteHelper extends SQLiteOpenHelper {
     //Sentencia SQL para crear la tabla de Datos Generales
-    String sqlCreate1Registrar = "CREATE TABLE DatoGeneral (icodigo INTEGER PRIMARY KEY, tnombre TEXT, tapellidoP TEXT, tapellidoM TEXT, tCorreo TEXT, tContra TEXT)";
-    String sqlCreate1Ingresar = "CREATE TABLE DatoGeneral2 (icodigo INTEGER  PRIMARY KEY AUTOINCREMENT, tCorreo TEXT, tContra TEXT)";
+    String sqlCreate1Registrar = "CREATE TABLE DatoGeneral (icodigo INTEGER PRIMARY KEY, tnombre TEXT, tapellidoP TEXT, tapellidoM TEXT, tCorreo TEXT, tContra String)";
+    String sqlCreate1Ingresar = "CREATE TABLE DatoGeneral2 (icodigo INTEGER  PRIMARY KEY, tContra String)";
 
 
     public UsuarioSQLiteHelper(Context contexto, String nombre, SQLiteDatabase.CursorFactory factory, Integer version)
