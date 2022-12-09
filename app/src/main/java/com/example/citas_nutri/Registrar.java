@@ -1,5 +1,6 @@
 package com.example.citas_nutri;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
@@ -88,9 +89,17 @@ public class Registrar extends AppCompatActivity {
                 this.finish();
                 return true;
             case R.id.txtRegis:
+                Intent i = new Intent(this, Registrar.class);
+                startActivity(i);
             case R.id.txtIngresa:
+                Intent e = new Intent(this, Ingresar.class);
+                startActivity(e);
             case R.id.txtIngresaUsu:
+                Intent o = new Intent(this, Ingresa_Usua.class);
+                startActivity(o);
             case R.id.txtIngresaNutri:
+                Intent s = new Intent(this, IngresaNutri.class);
+                startActivity(s);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

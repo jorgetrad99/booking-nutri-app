@@ -54,9 +54,14 @@
         android:layout_height="wrap_content"
         android:text="Reservar" />
 
+    <CalendarView
+        android:id="@+id/calendarView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="match_parent"
-        android:layout_height="273dp"
+        android:layout_height="wrap_content"
         app:srcCompat="@drawable/whatsapp_image_2022_12_01_at_1_35_24_pm" />
 </LinearLayout>
