@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Registrar"
+        android:id="@+id/txtRegis" />
+    <item android:title="Ingresar"
+        android:id="@+id/txtIngresa" /> />
+    <item android:title="IngresaUsu"
+        android:id="@+id/txtIngresaUsu" />
+    <item android:title="IngresaNutri"
+        android:id="@+id/txtIngresaNutri"/>
+</menu>

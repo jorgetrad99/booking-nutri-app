@@ -26,7 +26,8 @@
             android:layout_height="190dp"
             app:srcCompat="@drawable/mitos_excusas_para_no_ir_al_nutriologo_2"
             tools:layout_editor_absoluteX="51dp"
-            tools:layout_editor_absoluteY="16dp" />
+            tools:layout_editor_absoluteY="16dp"
+            tools:ignore="MissingConstraints" />
 
     </android.support.constraint.ConstraintLayout>
 
@@ -78,8 +79,10 @@
             android:layout_width="193dp"
             android:layout_height="53dp"
             android:text="INGRESAR"
+            android:onClick="Ingre"
             tools:layout_editor_absoluteX="109dp"
-            tools:layout_editor_absoluteY="46dp" />
+            tools:layout_editor_absoluteY="46dp"
+            tools:ignore="MissingConstraints,OnClick" />
     </android.support.constraint.ConstraintLayout>
 
 </LinearLayout>
